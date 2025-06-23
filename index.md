@@ -13,11 +13,18 @@ title: Kubernetes the Hard Way documentation
 
 Welcome to Kubernetes the Hard Way, the most masochistic blog on the Internet.
 
+## Posts
+
 ```{toctree}
-.github/index
-readme
+posts/index
 ```
+
 
 ## Extensions et cetera
 
 This blog is generated using [ablog](https://ablog.readthedocs.io/en/stable/).
+
+```{toctree}
+.github/index
+readme
+```
