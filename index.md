@@ -17,3 +17,7 @@ Welcome to Kubernetes the Hard Way, the most masochistic blog on the Internet.
 .github/index
 readme
 ```
+
+## Extensions et cetera
+
+This blog is generated using [ablog](https://ablog.readthedocs.io/en/stable/).
