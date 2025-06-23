@@ -23,6 +23,19 @@ extensions = [
 ]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+html_sidebars = {
+    "**": [
+        "ablog/postcard.html",
+        "ablog/recentposts.html",
+        "ablog/tagcloud.html",
+        "ablog/categories.html",
+        "ablog/archives.html",
+        "ablog/authors.html",
+        "ablog/languages.html",
+        "ablog/locations.html",
+    ]
+}
+
 html_static_path = ["_static"]
 html_theme = "press"
 # Myst Configuration
