@@ -10,6 +10,7 @@ title: GitHub Actions configuration
 Stay away from zero days with Dependabot.
 
 ```{autoyaml} .github/dependabot.yml
+
 ```
 
 ## Workflows
@@ -17,23 +18,18 @@ Stay away from zero days with Dependabot.
 GitHub Actions provides a pretty complete CI/CD system and they'll let you
 run a lot of pipelines for free.
 
-### codeql
-
-The CodeQL workflow provided by GitHub is actually pretty good also.
-
-```{autoyaml} .github/workflows/codeql.yml
-```
-
 ### Documentation
 
 Build and deploy the GitHub Pages docs.
 
 ```{autoyaml} .github/workflows/documentation.yml
+
 ```
 
-### shell
+### Metadata
 
-And ShellCheck never hurt anybody either.
+Add metadata to related issues and pull requests.
 
-```{autoyaml} .github/workflows/shell.yml
+```{autoyaml} .github/workflows/metadata.yml
+
 ```

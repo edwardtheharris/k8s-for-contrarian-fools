@@ -62,9 +62,11 @@ other services that he's come to rely on. In the way that a hammer
 will always want a nail, the author finds himself in need of some
 additional nodes.
 
-[![GKE Estimate](_static/img/readme/gke-estimate.png)]
+[![GKE Estimate](/_static/img/readme/gke-estimate.png)]
 
+```{figure} _static/img/readme/gke-estimate.png
 At least Google is honest about the cost of this modest cluster.
+```
 
 [![EKS Estimate](_static/img/readme/eks-estimate.png)]
 

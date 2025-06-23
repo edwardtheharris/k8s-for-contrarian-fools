@@ -14,5 +14,6 @@ title: Kubernetes the Hard Way documentation
 Welcome to Kubernetes the Hard Way, the most masochistic blog on the Internet.
 
 ```{toctree}
+.github/index
 readme
 ```
