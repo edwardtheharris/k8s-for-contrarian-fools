@@ -25,8 +25,6 @@ actually running a cluster. Since the author intends to demonstrate
 and expand expertise in the operation of Kubernetes clusters in the
 enterprise it follows that he'll need a proper cluster to operate on.
 
-### Why not a cloud provider
-
 If you've read much of the Kubernetes reference manual, you may have noticed
 that the use of cloud services is [encouraged](https://kubernetes.io/docs/setup/production-environment/#production-considerations).
 The author certainly did when he first started thumbing through it back in 2018.
@@ -51,7 +49,7 @@ And, because the Kubernetes API is a forever changing and immensely complicated
 system, building bare metal clusters on his local network has become something
 of a habit for the author.
 
-### Also, money
+## Also, money
 
 So the author finds himself without the means to support the cost of a
 modest
@@ -64,15 +62,19 @@ other services that he's come to rely on. In the way that a hammer
 will always want a nail, the author finds himself in need of some
 additional nodes.
 
-[![GKE Estimate](_static/img/)]
+### GKE
 
+```{figure} _static/img/readme/gke-estimate.png
 At least Google is honest about the cost of this modest cluster.
+```
 
-[![EKS Estimate](_static/img/readme/)]
+### AWS
 
+```{figure} _static/img/readme/eks-estimate.png
 AWS can't even tell you how much you're going to pay for a similarly
 modest cluster in any believable or precise way. Rest assured, though,
 that for the same configuration provided by Google the figure quoted here
 would at least double if not triple for an EKS cluster.
+```
 
 Yikes!
