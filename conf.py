@@ -14,8 +14,10 @@ copyright = "(c) 2025, Xander Harris <xandertheharris@gmail.com> All rights rese
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 exclude_patterns = ["_build", ".venv", "Thumbs.db", ".DS_Store"]
 extensions = [
+    "ablog",
     "myst_parser",
     "sphinx.ext.githubpages",
+    "sphinx.ext.intersphinx",
     "sphinx_last_updated_by_git",
     "sphinxcontrib.autoyaml",
 ]

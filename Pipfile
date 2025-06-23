@@ -12,6 +12,7 @@ sphinx-copybutton = "*"
 sphinx-last-updated-by-git = "*"
 sphinx-press-theme = "*"
 sphinxcontrib-autoyaml = "*"
+ablog = "*"
 
 [dev-packages]
 pre-commit = "*"
