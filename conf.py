@@ -23,6 +23,7 @@ extensions = [
 ]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+html_favicon = "_static/img/k8s-the-hard-way.png"
 html_logo = "_static/img/k8s-the-hard-way.png"
 html_sidebars = {
     "**": [
@@ -38,7 +39,7 @@ html_sidebars = {
 }
 
 html_static_path = ["_static"]
-html_theme = "press"
+html_theme = "sphinx_book_theme"
 # Myst Configuration
 # https://myst-parser.readthedocs.io/en/latest/configuration.html#extensions
 myst_enable_extensions = [
