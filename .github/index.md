@@ -26,6 +26,10 @@ Build and deploy the GitHub Pages docs.
 
 ```
 
+The docs are linted with
+[markdownlint](https://github.com/DavidAnson/markdownlint-cli2) before the
+build.
+
 ### Metadata
 
 Add metadata to related issues and pull requests.
