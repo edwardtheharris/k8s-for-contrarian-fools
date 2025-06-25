@@ -20,9 +20,13 @@ blog on the Internet.
 posts/index
 ```
 
-## Extensions et cetera
-
 This blog is generated using [ablog](https://ablog.readthedocs.io/en/stable/).
+
+### Related repositories
+
+- [ansible-k8s](https://edwardtheharris.github.io/ansible-etcd/)
+
+## Extensions et cetera
 
 ```{toctree}
 .github/index

@@ -13,6 +13,7 @@ sphinx-last-updated-by-git = "*"
 sphinx-press-theme = "*"
 sphinxcontrib-autoyaml = "*"
 ablog = "*"
+sphinx-book-theme = "*"
 
 [dev-packages]
 pre-commit = "*"

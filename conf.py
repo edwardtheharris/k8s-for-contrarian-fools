@@ -39,7 +39,7 @@ html_sidebars = {
 }
 
 html_static_path = ["_static"]
-html_theme = "press"
+html_theme = "sphinx_book_theme"
 # Myst Configuration
 # https://myst-parser.readthedocs.io/en/latest/configuration.html#extensions
 myst_enable_extensions = [
