@@ -32,6 +32,10 @@ readme
 ### Glossary
 
 ```{glossary}
+Ansible
+  [Ansible](https://docs.ansible.com/) offers open-source automation
+  that is simple, flexible, and powerful.
+
 ArchLinux
   [ArchLinux](https://archlinux.org) is lightweight and flexible Linux®
   distribution that tries to Keep It Simple.
@@ -44,10 +48,10 @@ etcd
   in the leader node.
 
 Kubernetes
-  Kubernetes, also known as K8s, is an open source system for automating deployment,
-  scaling, and management of containerized applications. Extensive use of
-  the [related documentation](https://kubernetes.io/docs/home/) was made in the
-  creation of this guide.
+  Kubernetes, also known as K8s, is an open source system for automating
+  deployment, scaling, and management of containerized applications. Extensive
+  use of the [related documentation](https://kubernetes.io/docs/home/) was
+  made in the creation of this guide.
 
 makepkg
   [makepkg](https://wiki.archlinux.org/title/Makepkg) is a script to automate
