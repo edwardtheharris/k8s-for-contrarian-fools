@@ -6,8 +6,14 @@
 # A Tera template to be rendered as the changelog's footer.
 # See https://keats.github.io/tera/docs/#introduction
 header = """
-# Changelog\n
-All notable changes to this project will be documented in this file.\n
+---\n
+abstract: All notable changes to this project will be documented in this file.\n
+authors:\n
+  - name: Xander Harris\n
+    email: xandertheharris@gmail.com\n
+date: 2025-06-30\n
+title: Kubernetes the Hard Way Changelog\n
+---\n
 """
 # A Tera template to be rendered for each release in the changelog.
 # See https://keats.github.io/tera/docs/#introduction
