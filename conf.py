@@ -1,10 +1,10 @@
 """Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+For the full list of built-in configuration values, see the documentation:
+https://www.sphinx-doc.org/en/master/usage/configuration.html
+
+-- Project information -----------------------------------------------------
+https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 """
 
 author = "Xander Harris <xandertheharris@gmail.com>"
@@ -27,19 +27,25 @@ html_favicon = "_static/img/k8s-the-hard-way.png"
 html_logo = "_static/img/k8s-the-hard-way.png"
 html_sidebars = {
     "**": [
+        "globaltoc.html",
+        "relations.html",
+        "ablog/archives.html",
+        "ablog/authors.html",
+        "ablog/categories.html",
+        "ablog/languages.html",
+        "ablog/locations.html",
         "ablog/postcard.html",
         "ablog/recentposts.html",
         "ablog/tagcloud.html",
-        "ablog/categories.html",
-        "ablog/archives.html",
-        "ablog/authors.html",
-        "ablog/languages.html",
-        "ablog/locations.html",
-    ]
+        "sourcelink.html",
+        "searchbox.html",
+    ],
 }
-
+html_show_sourcelink = True
 html_static_path = ["_static"]
 html_theme = "sphinx_book_theme"
+html_use_index = True
+html_use_opensearch = "https://edwardtheharris.github.io/k8s-the-hard-way/"
 # Myst Configuration
 # https://myst-parser.readthedocs.io/en/latest/configuration.html#extensions
 myst_enable_extensions = [

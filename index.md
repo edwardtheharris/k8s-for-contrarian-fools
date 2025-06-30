@@ -12,30 +12,50 @@ title: Kubernetes the Hard Way documentation
 ---
 
 Welcome to {term}`Kubernetes` the Hard Way, the most masochistic
-blog on the Internet.
+blog on the Internet.[^ablog]
 
-## Posts
+## Site contents
+
+The main contents of this site are a blog that is intended to provide the
+curious with a step by step guide to building their own bare metal
+{term}`Kubernetes` cluster on their own hardware for less than the cost of
+a single month of a managed cluster with a similar level of resources.
+
+### CI/CD Documentation
 
 ```{toctree}
+:maxdepth: 3
+
+.github/index
+```
+
+### Readme
+
+```{toctree}
+:maxdepth: 3
+
+readme
+```
+
+### Blog
+
+```{toctree}
+:maxdepth: 5
+
 posts/index
 ```
 
-This blog is generated using [ablog](https://ablog.readthedocs.io/en/stable/).
-
 ### Related repositories
 
-- [ansible-k8s](https://edwardtheharris.github.io/ansible-etcd/)
-
-## Extensions et cetera
-
-```{toctree}
-.github/index
-readme
-```
+- [ansible-etcd](https://edwardtheharris.github.io/ansible-etcd/)
+- [ansible-kcp](https://edwardtheharris.github.io/ansible-kcp/)
+- [ansible-k8s-nodes](https://edwardtheharris.github.io/ansible-k8s-nodes/)
 
 ### Glossary
 
 ```{glossary}
+:sorted:
+
 Ansible
   [Ansible](https://docs.ansible.com/) offers open-source automation
   that is simple, flexible, and powerful.
@@ -43,6 +63,33 @@ Ansible
 ArchLinux
   [ArchLinux](https://archlinux.org) is lightweight and flexible Linux®
   distribution that tries to Keep It Simple.
+
+AWS
+  [AWS](https://aws.amazon.com/) is a formerly innovative and useful collection
+  of services that provides most of the revenue from which the Bezos' fortune
+  is created. Like all monopolies or near monopolies it has become far too
+  expensive for far little value. Don't use this.
+
+Azure
+  [Azure](https://azure.microsoft.com/en-us) seems to have become the latest
+  method for MS to demand (DEMAND!) that you use Copilot. You shouldn't use
+  Copilot, it will make you dumb and decrease your capacity for genuine
+  understanding of even basic ideas like object permanence.
+
+ECS
+  [ECS](https://aws.amazon.com/ecs/?nc2=type_a) is kind of a first-draft
+  version of Kubernetes, which is to say (even ten years on): half baked,
+  feature-incomplete, too expensive, and for all but the simplest use cases
+  almost entirely devoid of utility.
+
+EKS
+  [EKS](https://aws.amazon.com/eks/?nc2=type_a) is the admission by {term}`AWS`
+  that {term}`ECS` was a total failure and they lost the betamax/vhs style
+  brand war to Google's Kubernetes team. It's implementation is poor, Amazon
+  seems to be insisting that you run the important parts of it on your own
+  infrastructure, and has so little understanding of Kubernetes as a managed
+  service that they can't even provide a believable estimate for the monthly
+  cost of a cluster. Also don't use this.
 
 etcd
   [etcd](https://etcd.io) is a strongly consistent, distributed key-value
@@ -66,5 +113,10 @@ yay
   Yet another Yogurt - An AUR Helper written in Go. See the related
   [GitHub Repository](https://github.com/Jguer/yay)
 ```
+
+[^ablog]: This blog is generated using
+  [ablog](https://ablog.readthedocs.io/en/stable/). The creators of
+  ablog have no stated opinion on matters related to computing and
+  its relationship with masochism.
 
 <!-- vim: set colorcolumn=80: -->
