@@ -3,6 +3,7 @@
 For the full list of built-in configuration values, see the documentation:
 https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+[isso](https://isso-comments.de/docs/guides/quickstart/) can be used for comments.
 -- Project information -----------------------------------------------------
 https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 """

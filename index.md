@@ -24,7 +24,6 @@ a single month of a managed cluster with a similar level of resources.
 ### Blog
 
 ```{toctree}
-:maxdepth: 5
 
 posts/index
 ```
@@ -103,6 +102,10 @@ etcd
   by a distributed system or cluster of machines. It gracefully handles leader
   elections during network partitions and can tolerate machine failure, even
   in the leader node.
+
+git-cliff
+  [git-cliff](https://git-cliff.org/) is a highly customizable
+  changelog generator.
 
 Kubernetes
   Kubernetes, also known as K8s, is an open source system for automating
