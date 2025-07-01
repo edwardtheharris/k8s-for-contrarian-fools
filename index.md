@@ -107,11 +107,34 @@ git-cliff
   [git-cliff](https://git-cliff.org/) is a highly customizable
   changelog generator.
 
+kubeadm
+  [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/) is a
+  tool built to provide kubeadm init and kubeadm join as best-practice
+  "fast paths" for creating Kubernetes clusters.
+
+kubelet
+  [kubelet](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/)
+  is the primary "node agent" that runs on each node. It can register
+  the node with the apiserver using one of: the hostname; a flag to
+  override the hostname; or specific logic for a cloud provider.
+
 Kubernetes
   Kubernetes, also known as K8s, is an open source system for automating
   deployment, scaling, and management of containerized applications. Extensive
   use of the [related documentation](https://kubernetes.io/docs/home/) was
   made in the creation of this guide.
+
+ssh
+  [ssh](https://www.openssh.com/manual.html) is a basic rlogin/rsh-like
+  client program
+
+sudo
+  [sudo](https://www.sudo.ws/) allows a system administrator to delegate
+  authority to give certain users (or groups of users) the ability to run
+  some (or all) commands as root or another user while providing an audit
+  trail of the commands and their arguments.
+
+  ... [okay, sudo make me a sandwich](https://xkcd.com/149/).
 
 makepkg
   [makepkg](https://wiki.archlinux.org/title/Makepkg) is a script to automate
