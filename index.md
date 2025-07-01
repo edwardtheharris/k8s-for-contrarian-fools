@@ -21,6 +21,14 @@ curious with a step by step guide to building their own bare metal
 {term}`Kubernetes` cluster on their own hardware for less than the cost of
 a single month of a managed cluster with a similar level of resources.
 
+### Blog
+
+```{toctree}
+:maxdepth: 5
+
+posts/index
+```
+
 ### CI/CD Documentation
 
 ```{toctree}
@@ -38,13 +46,10 @@ changelog
 readme
 ```
 
-### Blog
+## Metadata
 
-```{toctree}
-:maxdepth: 5
-
-posts/index
-```
+Below are links to related repositories along with a glossary and perhaps
+some links to indexes.
 
 ### Related repositories
 
