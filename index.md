@@ -103,6 +103,10 @@ etcd
   elections during network partitions and can tolerate machine failure, even
   in the leader node.
 
+flannel
+  [flannel](https://github.com/flannel-io/flannel) is a simple and easy
+  way to configure a layer 3 network fabric designed for Kubernetes.
+
 git-cliff
   [git-cliff](https://git-cliff.org/) is a highly customizable
   changelog generator.
