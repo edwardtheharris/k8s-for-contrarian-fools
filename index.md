@@ -27,6 +27,7 @@ a single month of a managed cluster with a similar level of resources.
 :maxdepth: 3
 
 .github/index
+changelog
 ```
 
 ### Readme
