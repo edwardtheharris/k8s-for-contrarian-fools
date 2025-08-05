@@ -81,6 +81,13 @@ Azure
   Copilot, it will make you dumb and decrease your capacity for genuine
   understanding of even basic ideas like object permanence.
 
+EasyRSA
+  [EasyRSA](https://github.com/OpenVPN/easy-rsa) easy-rsa is a CLI utility to build and manage a PKI CA.
+  In layman's terms, this means to create a root certificate authority, and request and sign certificates,
+  including intermediate CAs and certificate revocation lists (CRL).
+
+  Documentation is available [in the EasyRSA docs](https://easy-rsa.readthedocs.io/en/latest/).
+
 ECS
   [ECS](https://aws.amazon.com/ecs/?nc2=type_a) is kind of a first-draft
   version of Kubernetes, which is to say (even ten years on): half baked,

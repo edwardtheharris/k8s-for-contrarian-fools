@@ -40,6 +40,12 @@ deploying a separate {term}`etcd`.
 02-q-and-d-kubeadm/index
 ```
 
+### Miscellaneous
+
+```{toctree}
+00-misc/index
+```
+
 ```{postlist}
 :sort:
 :category: Quick and Dirty
