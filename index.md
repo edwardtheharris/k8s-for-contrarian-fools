@@ -135,6 +135,17 @@ Kubernetes
   use of the [related documentation](https://kubernetes.io/docs/home/) was
   made in the creation of this guide.
 
+PostgreSQL
+  [PostgreSQL](https://www.postgresql.org/) is a powerful, open source
+  object-relational database system that uses and extends the SQL language
+  combined with many features that safely store and scale the most complicated
+  data workloads.
+
+RDBMS
+  A [relational database management system](https://en.wikipedia.org/wiki/Relational_database)
+  is a type of database management
+  system that stores data in a structured format using rows and columns.
+
 ssh
   [ssh](https://www.openssh.com/manual.html) is a basic rlogin/rsh-like
   client program
