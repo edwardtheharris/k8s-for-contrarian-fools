@@ -69,6 +69,10 @@ ArchLinux
   [ArchLinux](https://archlinux.org) is lightweight and flexible Linux®
   distribution that tries to Keep It Simple.
 
+ArgoCD
+  [Argo CD](https://argo-cd.readthedocs.io/en/stable/) is a declarative,
+  GitOps continuous delivery tool for Kubernetes.
+
 AWS
   [AWS](https://aws.amazon.com/) is a formerly innovative and useful collection
   of services that provides most of the revenue from which the Bezos' fortune
@@ -80,6 +84,11 @@ Azure
   method for MS to demand (DEMAND!) that you use Copilot. You shouldn't use
   Copilot, it will make you dumb and decrease your capacity for genuine
   understanding of even basic ideas like object permanence.
+
+CSI
+  The Container Storage Interface
+  ([CSI](https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/))
+  is a standardized method for providing storage drivers to Kubernetes.
 
 EasyRSA
   [EasyRSA](https://github.com/OpenVPN/easy-rsa) easy-rsa is a CLI utility to build and manage a PKI CA.
@@ -134,6 +143,28 @@ Kubernetes
   deployment, scaling, and management of containerized applications. Extensive
   use of the [related documentation](https://kubernetes.io/docs/home/) was
   made in the creation of this guide.
+
+LVM
+  Logical Volume Manager ([LVM](https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)))
+  is a device‑mapper framework for the Linux (and NetBSD) kernel that provides
+  flexible logical volume management by creating an abstraction layer over
+  physical storage.
+
+NGINX
+  [nginx](https://nginx.org/en/) ("engine x") is an HTTP web server,
+  reverse proxy, content cache,
+  load balancer, TCP/UDP proxy server, and mail proxy server.
+
+PostgreSQL
+  [PostgreSQL](https://www.postgresql.org/) is a powerful, open source
+  object-relational database system that uses and extends the SQL language
+  combined with many features that safely store and scale the most complicated
+  data workloads.
+
+RDBMS
+  A [relational database management system](https://en.wikipedia.org/wiki/Relational_database)
+  is a type of database management
+  system that stores data in a structured format using rows and columns.
 
 ssh
   [ssh](https://www.openssh.com/manual.html) is a basic rlogin/rsh-like
