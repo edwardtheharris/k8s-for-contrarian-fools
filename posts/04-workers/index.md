@@ -3,11 +3,11 @@ abstract: What is a kubelet and when does it hatch?
 authors:
   - name: Xander Harris
     email: xandertheharris@gmail.com
-date: 2025-06-23
-title: All that we need to know to start consuming compute.
+date: 2025-08-01
+title: Workloads run on Worker Nodes
 ---
 
 ```{postlist}
 :sort:
-:category: Workers
+:category: Worker Nodes
 ```
