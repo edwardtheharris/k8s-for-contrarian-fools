@@ -85,6 +85,31 @@ Azure
   Copilot, it will make you dumb and decrease your capacity for genuine
   understanding of even basic ideas like object permanence.
 
+Calico
+  Project [Calico](https://www.tigera.io/project-calico/) is an open-source
+  project with an active development and user community. Calico Open Source
+  was born out of this project and has grown to become the most widely
+  adopted solution for container networking and security, powering 8M+ nodes
+  daily across 166 countries.
+
+Cillium
+  [Cilium](https://github.com/cilium/cilium) is a networking, observability,
+  and security solution with an eBPF-based dataplane. It provides a simple
+  flat Layer 3 network with the ability to span multiple clusters in either a
+  native routing or overlay mode. It is L7-protocol aware and can enforce
+  network policies on L3-L7 using an identity based security model that
+  is decoupled from network addressing.
+
+CNI
+  [CNI](https://github.com/containernetworking/cni) (Container Network
+  Interface), a Cloud Native Computing Foundation project, consists of a
+  specification and libraries for writing plugins to configure network
+  interfaces in Linux containers, along with a number of supported plugins.
+  CNI concerns itself only with network connectivity of containers and
+  removing allocated resources when the container is deleted. Because of this
+  focus, CNI has a wide range of support and the specification is simple to
+  implement.
+
 CSI
   The Container Storage Interface
   ([CSI](https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/))
@@ -119,8 +144,8 @@ etcd
   elections during network partitions and can tolerate machine failure, even
   in the leader node.
 
-flannel
-  [flannel](https://github.com/flannel-io/flannel) is a simple and easy
+Flannel
+  [Flannel](https://github.com/flannel-io/flannel) is a simple and easy
   way to configure a layer 3 network fabric designed for Kubernetes.
 
 git-cliff

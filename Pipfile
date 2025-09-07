@@ -8,7 +8,6 @@ sphinx = "*"
 myst-parser = {extras = ["linkify"], version = "*"}
 pipenv = "*"
 sphinx-autobuild = "*"
-sphinx-copybutton = "*"
 sphinx-last-updated-by-git = "*"
 sphinx-press-theme = "*"
 sphinxcontrib-autoyaml = "*"
@@ -16,6 +15,7 @@ ablog = "*"
 sphinx-book-theme = "*"
 isso = "*"
 sphinxnotes-isso = "*"
+sphinx-copybutton = "*"
 
 [dev-packages]
 pre-commit = "*"
