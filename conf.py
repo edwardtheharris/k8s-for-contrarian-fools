@@ -61,6 +61,18 @@ html_theme_options = {
             "type": "fontawesome",
         },
         {
+            "name": "Helm",
+            "url": "https://helm.sh",
+            "icon": "_static/img/helm.png",
+            "type": "local",
+        },
+        {
+            "name": "Kubernetes",
+            "url": "https://kubernetes.io",
+            "icon": "_static/img/kubernetes.png",
+            "type": "local",
+        },
+        {
             "name": "Kubernetes the Hard Way",
             "url": "https://edwardtheharris.github.io/k8s-the-hard-way/",
             "icon": "_static/img/k8s-the-hard-way.png",
