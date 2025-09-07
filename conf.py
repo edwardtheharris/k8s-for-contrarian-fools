@@ -24,18 +24,15 @@ extensions = [
 ]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-html_theme_options = {
-    "logo": {
-        "image_light": "_static/img/k8s-the-hard-way.png",
-        "image_dark": "_static/img/k8s-the-hard-way.png",
-    }
-}
+html_favicon = "_static/img/k8s-the-hard-way.png"
+html_logo = "_static/img/k8s-the-hard-way.png"
 html_sidebars = {
     "**": [
-        "globaltoc.html",
+        "navbar-logo.html",
+        "icon-links.html",
+        "ablog/authors.html",
         "relations.html",
         "ablog/archives.html",
-        "ablog/authors.html",
         "ablog/categories.html",
         "ablog/languages.html",
         "ablog/locations.html",
@@ -49,8 +46,35 @@ html_sidebars = {
 html_show_sourcelink = True
 html_static_path = ["_static"]
 html_theme = "sphinx_book_theme"
+html_theme_options = {
+    "home_page_in_toc": True,
+    "icon_links": [
+        {
+            # Label for this link
+            "name": "GitHub",
+            # URL where the link will redirect
+            "url": "https://github.com/edwardtheharris/k8s-the-hard-way",  # required
+            # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
+            "icon": "fa-brands fa-square-github",
+            # The type of image to be used (see below for details)
+            "type": "fontawesome",
+        },
+        {
+            "name": "Kubernetes the Hard Way",
+            "url": "https://edwardtheharris.github.io/k8s-the-hard-way/",
+            "icon": "_static/img/k8s-the-hard-way.png",
+            "type": "local",
+        },
+    ],
+    "icon_links_label": "Quick Links",
+    "logo": {
+        "image_light": "_static/img/k8s-the-hard-way.png",
+        "image_dark": "_static/img/k8s-the-hard-way.png",
+    },
+}
 html_use_index = True
 html_use_opensearch = "https://edwardtheharris.github.io/k8s-the-hard-way/"
+
 # Myst Configuration
 # https://myst-parser.readthedocs.io/en/latest/configuration.html#extensions
 myst_enable_extensions = [
@@ -71,5 +95,5 @@ myst_links_external_new_tab = True
 myst_title_to_header = True
 project = "Kubernetes the Hard Way"
 release = "0.0.1"
-source_suffix = ".md"
+source_suffix = {".md": "markdown"}
 templates_path = ["_templates"]
