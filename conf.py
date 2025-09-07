@@ -19,6 +19,7 @@ extensions = [
     "myst_parser",
     "sphinx.ext.githubpages",
     "sphinx.ext.intersphinx",
+    "sphinx_copybutton",
     "sphinx_last_updated_by_git",
     "sphinxcontrib.autoyaml",
 ]
