@@ -7,5 +7,5 @@ title: Miscellaneous
 
 ```{postlist}
 :sort:
-:category: Miscellaneous 
+:category: Miscellaneous
 ```
