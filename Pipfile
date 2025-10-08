@@ -4,19 +4,19 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-sphinx = "*"
+ablog = "*"
+isso = "*"
 myst-parser = {extras = ["linkify"], version = "*"}
 pipenv = "*"
+sphinx = "*"
 sphinx-autobuild = "*"
+sphinx-book-theme = "*"
+sphinx-copybutton = "*"
 sphinx-last-updated-by-git = "*"
 sphinx-press-theme = "*"
 sphinxcontrib-autoyaml = "*"
-ablog = "*"
-sphinx-book-theme = "*"
-isso = "*"
 sphinxnotes-isso = "*"
-sphinx-copybutton = "*"
 
 [dev-packages]
-pre-commit = "*"
 black = "*"
+pre-commit = "*"
