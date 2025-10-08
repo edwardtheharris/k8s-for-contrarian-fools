@@ -79,13 +79,31 @@ what {term}`kubeadm` was made for.
 :category: Worker Nodes
 ```
 
+
+### Basic Cluster Services
+
+With the cluster running and the nodes sort-of communicating with each other
+we're ready to finish the preparation of the cluster by enabling the 
+remaining services, such as networking.
+
+```{toctree} 
+:caption: basic cluster services
+05-cluster-services/index
+```
+
+
+```{postlist}
+:sort:
+:category: Cluster Services
+```
+
 ### Workloads
 
 Finally, we do some actual work. That's right everything until now
 has been preparing to work.
 
 ```{toctree}
-05-workloads/index
+06-workloads/index
 ```
 
 ```{postlist}

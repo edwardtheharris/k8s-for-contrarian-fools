@@ -5,10 +5,10 @@ authors:
   - name: Xander Harris
     email: xandertheharris@gmail.com
 date: 2025-07-01
-title: Quick and Dirty deployment
+title: kubeadm, q&d or otherwise
 ---
 
 ```{postlist}
 :sort:
-:category: Quick and Dirty
+:category: kubeadm 
 ```

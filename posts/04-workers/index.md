@@ -17,5 +17,4 @@ title: Workloads run on Worker Nodes
 
 ```{toctree}
 2025-08-01.kubelet
-2025-08-08.networking
 ```
