@@ -108,5 +108,12 @@ myst_links_external_new_tab = True
 myst_title_to_header = True
 project = "Kubernetes the Hard Way"
 release = "0.0.1"
+rst_epilog = """
+.. topic:: SUDO <SUDO>
+
+   SUDO <SUDO>
+
+.. sectionauthor:: Xander Harris <xandertheharris@gmail.com>
+"""
 source_suffix = {".md": "markdown"}
 templates_path = ["_templates"]
