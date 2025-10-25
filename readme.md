@@ -4,7 +4,7 @@ authors:
   - name: Xander Harris
     email: xandertheharris@gmail.com
 date: 2025-06-22
-title: Kubernetes the Hard Way Introduction
+title: Kubernetes for Contrarnain Fools Introduction
 ---
 
 This blog is an attempt to document the process of building a Kubernetes
@@ -31,7 +31,7 @@ The author certainly did when he first started thumbing through it back in 2018.
 Being the sort of curious, pedantic, and contrarian sort of fellow
 that reads the sound advice provided by the manual to just do it the easy way
 as a challenge instead of advice the author built his first Kubernetes cluster
-the hard way in 2018.
+for contrarian fools in 2018.
 
 The manual was correct its assertion that knowing how to build a cluster
 isn't necessarily useful in a production environment since (as the author
