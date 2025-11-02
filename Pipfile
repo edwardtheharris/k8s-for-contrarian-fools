@@ -5,17 +5,13 @@ name = "pypi"
 
 [packages]
 ablog = "*"
-isso = "*"
 myst-parser = {extras = ["linkify"], version = "*"}
-pipenv = "*"
 sphinx = "*"
 sphinx-autobuild = "*"
 sphinx-book-theme = "*"
 sphinx-copybutton = "*"
 sphinx-last-updated-by-git = "*"
-sphinx-press-theme = "*"
 sphinxcontrib-autoyaml = "*"
-sphinxnotes-isso = "*"
 
 [dev-packages]
 black = "*"
