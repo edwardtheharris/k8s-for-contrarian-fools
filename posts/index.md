@@ -112,6 +112,7 @@ has been preparing to work.
 ```
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
+
 ```
 
 > Take care of your tools and they'll take care of you.
