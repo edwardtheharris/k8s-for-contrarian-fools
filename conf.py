@@ -104,6 +104,8 @@ myst_enable_extensions = [
     "strikethrough",
     "tasklist",
 ]
+myst_footnote_sort = True
+myst_footnote_transition = True
 myst_links_external_new_tab = True
 myst_title_to_header = True
 project = "Kubernetes the Hard Way"
