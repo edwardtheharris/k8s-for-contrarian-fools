@@ -108,6 +108,9 @@ git-cliff
   [git-cliff](https://git-cliff.org/) is a highly customizable
   changelog generator.
 
+Helm
+  [Helm](https://helm.sh) is the package manager for Kubernetes.
+
 Ingress NGINX
   [Ingress NGINX](https://github.com/kubernetes/ingress-nginx?tab=readme-ov-file)
   is an Ingress controller for Kubernetes using NGINX

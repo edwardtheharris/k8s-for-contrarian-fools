@@ -84,13 +84,22 @@ It can be therapeutic to impotently scream into the void, one hopes.
 :category: Worker Nodes
 ```
 
+### Cluster services
+
+Once the cluster itself is up and happy, there are several services that we'll
+need to get running as well.
+
+```{toctree}
+05-cluster-services/index
+```
+
 ### Workloads
 
 Finally, we do some actual work. That's right everything until now
 has been preparing to work.
 
 ```{toctree}
-05-workloads/index
+06-workloads/index
 ```
 
 ```{postlist}
