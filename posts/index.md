@@ -48,13 +48,18 @@ what {term}`kubeadm` was made for.
 
 ### Miscellaneous
 
+It can be therapeutic to impotently scream into the void, one hopes.
+
 ```{toctree}
+:caption: Miscellaneous
+:maxdepth: 2
+
 00-misc/index
 ```
 
 ```{postlist}
 :sort:
-:category: Quick and Dirty
+:category: Miscellaneous
 ```
 
 ### The Control Plane
