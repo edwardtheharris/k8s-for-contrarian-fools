@@ -1007,12 +1007,12 @@
         },
         "sphinxnotes-isso": {
             "hashes": [
-                "sha256:dad09e019201d42b3294f59c25a6b676bdbab89e13dd8ec3dfc16ee82fe8b8a0",
-                "sha256:f86e665742d42e4a216a22daf14e4e5ab4dc71a673cf6e4b59e48f24c2550840"
+                "sha256:502bfab879647886583ff9a05b7ad6682ef44fc92cd768de68c42828b640588d",
+                "sha256:5ef86cacb5d23ea617d590d44cac4bd7ccb082d5acd5abfd3881abd90d45cef9"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.8'",
-            "version": "==1.2"
+            "markers": "python_version >= '3.12'",
+            "version": "==2.0"
         },
         "starlette": {
             "hashes": [
