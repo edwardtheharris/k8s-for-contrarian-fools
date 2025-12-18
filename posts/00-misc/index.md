@@ -9,3 +9,12 @@ title: Miscellaneous
 :sort:
 :category: Miscellaneous
 ```
+
+```{toctree}
+:caption: Miscellaneous
+:glob:
+:maxdepth: 1
+
+20*
+```
+
