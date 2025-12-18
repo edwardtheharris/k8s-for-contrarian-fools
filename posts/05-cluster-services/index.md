@@ -8,5 +8,5 @@ title: The cluster should provide services to ease workload usage.
 ```{postlist}
 :sort:
 :category: Cluster Services
-:tags: workloads,deployment
+:tags: kubelet,storage,csi,workloads,deployment
 ```
